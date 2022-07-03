@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquerys.css">
     <title>Document</title>
 </head>
 
@@ -14,11 +15,14 @@
         <header class="header">
             <div class="header-logo">
                 <div class="header-logo-img">
-                    <img class="img-1" src="./img/Vector-logo.png" alt="">
+                    <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                    <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
                 </div>
                 <div class="header-text">
-                    <img class="img-2" src="./img/AluraGeek.png" alt="">
-                    <img class="img-3" src="./img/AluraGeek-geek.png" alt="">
+                    <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                    <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                    <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                    <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
                 </div>
             </div>
             <div class="header-btn">
@@ -26,7 +30,7 @@
             </div>
             <div class="header-search">
                 <input type="text" value="¿Qué deseas buscar?">
-                <a href=""><img src="./img/loop.png" alt=""></a>
+                <button><img src="./img/loop.png" alt=""></button>
                 <!-- probar con hidden el input y cuando apretamos el anchor -->
             </div>
         </header>
@@ -37,22 +41,352 @@
                 <button>Ver Consolas</button>
             </div>
         </section>
-        <section class="product-line">
-            <div class="product-line-top">
-                <p>Star Wars</p>
-                <div class="product-line-btn">
-                    <button>Ver todo<img src="./img/arrow.png" alt=""></button>
-
+        <section class="starwars product-line">
+            <div class="product-line-container">
+                <div class="product-line-top">
+                    <p>Star Wars</p>
+                    <div class="product-line-btn">
+                        <a>Ver todo<img src="./img/arrow.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars1.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                            <!-- <button>Ver producto</button> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars2.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars3.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars4.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars5.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/starwars6.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="products">
 
-            </div>
-            <div class="products">
-
+        </section>
+        <section class="console product-line">
+            <div class="product-line-container">
+                <div class="product-line-top">
+                    <p>Console</p>
+                    <div class="product-line-btn">
+                        <a>Ver todo<img src="./img/arrow.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/console1.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/console2.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/console3.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/console4.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/console5.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/console6.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+        <section class="various product-line">
+            <div class="product-line-container">
+                <div class="product-line-top">
+                    <p>Diversos</p>
+                    <div class="product-line-btn">
+                        <a>Ver todo<img src="./img/arrow.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/various1.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/various2.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/various3.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/various4.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/various5.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="product-card hidden-card">
+                        <div class="product-card-img">
+                            <img src="./img/various6.png" alt="">
+                        </div>
+                        <div class="product-card-name">
+                            <p>Producto XYZ</p>
+                        </div>
+                        <div class="product-card-price">
+                            <p>R$ 60.00</p>
+                        </div>
+                        <div class="product-card-btn">
+                            <a href="">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- <div class="footer-container"> -->
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div class="logo-img">
+                            <img src="./img/Vector2.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <img src="./img/AluraGeek2.png" alt="">
+                            <img src="./img/AluraGeek-geek2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Quienes somos</a>
+                        <a href="#">Política de provacidad</a>
+                        <a href="#">Programa de fidelidad</a>
+                        <a href="#">Nuestras tiendas</a>
+                        <a href="#">Quiero ser franquiciado</a>
+                        <a href="#">Anúncie aqui</a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact-text">
+                        <p>Hable con nosotros</p>
+                    </div>
+                    <div class="footer-contact-fields">
+                        <div class="footer-input">
+                            <div class="input-box">
+                                <div class="input-box-container">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" placeholder="Gonzalo Ferreyra">
+                                </div>
+                            </div>
+                            <div class="input-box">
+                                <div class="input-box-container">
+                                    <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-input">
 
+                        </div>
+                    </div>
+                    <div class="footer-contact-btn">
+                        <button>Enviar mensaje</button>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+            </div>
+
+        </footer>
+        <div class="rodapie">
+            <p>Desarrolador por Gonzalo - 2022</p>
+        </div>
 
     </div>
 

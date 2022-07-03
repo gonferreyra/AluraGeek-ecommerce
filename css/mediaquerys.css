@@ -1,0 +1,221 @@
+:root {
+    --preto-05: #F5F5F5;
+    --azulbtn: #2a7ae4;
+    --white: #FFFFFF;
+    --lightblue: #EAF2FD;
+    --lightgray: #e5e5e5;
+    --preto-50: #A2A2A2;
+    --preto-100: #464646;
+}
+
+
+/* -------------------------------------------- */
+/* ----------------- HEADER  ----------------- */
+/* -------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+    .header-search input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 1rem 2rem;
+    }
+
+    .header-btn {
+        order: 1;
+    }
+
+    .header-search {
+        order: 0;
+        background-color: var(--preto-05);
+        display: flex;
+        column-gap: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .header-search input {
+        border: none;
+        background-color: var(--preto-05);
+        padding: 0.68rem 1rem;
+        /* font-family: inherit; */
+        font-size: 14px;
+        color: var(--preto-50);
+        border-radius: 20px;
+    }
+
+    .header-search button {
+        margin: 0;
+        padding: 0.68rem 0.74rem;
+        border-radius: 20px;
+        /* background-color: var(--preto-05); */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        padding: 1rem 9.5rem;
+    }
+
+    .header-logo-img .header-logo-img-1,
+    .header-text .header-text-img-1,
+    .header-text .header-text-img-2 {
+        display: none;
+    }
+
+    .header-logo-img .header-logo-img-2 {
+        display: block;
+    }
+
+    .header-text .header-text-img-3,
+    .header-text .header-text-img-4 {
+        display: inline;
+    }
+
+    .header-logo {
+        align-items: center;
+    }
+
+    .header-search {
+        width: 393px;
+        justify-content: space-between;
+    }
+
+
+}
+
+/* -------------------------------------------- */
+/* ------------------- HERO  ------------------ */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 2rem;
+    }
+
+    .hero-text {
+        margin-top: 8rem;
+    }
+
+    .hero-text h2 {
+        font-size: 52px;
+    }
+
+    .hero-text p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding: 2rem 9.5rem;
+    }
+}
+
+/* -------------------------------------------- */
+/* -------------- PRODUCT-LINE  --------------- */
+/* -------------------------------------------- */
+
+@media only screen and (min-width: 600px) {
+    .products {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .hidden-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .product-line {
+        padding: 2rem;
+    }
+
+    .product-line-container {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .product-line-btn a {
+        width: 81px;
+        font-size: 1rem;
+    }
+
+    .product-card-btn a {
+        width: 100px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1200px) {
+    .product-card img {
+        width: 164px;
+        height: 164px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .product-card img {
+        width: 176px;
+        height: 174px;
+    }
+
+}
+
+/* -------------------------------------------- */
+/* ------------------ FOOTER ------------------ */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 2rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        column-gap: 6rem;
+    }
+
+    .footer-contact {
+        flex-grow: 1;
+    }
+
+    .footer-contact-text {
+        margin: 0;
+    }
+
+    .input-box {
+        margin-top: 8px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-left {
+        flex-direction: row;
+    }
+
+    .footer-logo {
+        align-items: flex-start;
+    }
+
+    .footer-content {
+        gap: 0;
+    }
+
+    .footer-left {
+        max-width: 50%;
+        flex-grow: 1;
+    }
+
+    .footer-contact {
+        max-width: 50%;
+    }
+}
