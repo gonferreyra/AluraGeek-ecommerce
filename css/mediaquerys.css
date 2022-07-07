@@ -32,11 +32,14 @@
         order: 0;
         background-color: var(--preto-05);
         display: flex;
-        column-gap: 1.5rem;
+        /* column-gap: 1.5rem; */
         border-radius: 20px;
+        width: 272px;
     }
 
     .header-search input {
+        width: 100%;
+        outline: none;
         border: none;
         background-color: var(--preto-05);
         padding: 0.68rem 1rem;
@@ -56,7 +59,7 @@
 
 @media screen and (min-width: 1200px) {
     .header {
-        padding: 1rem 9.5rem;
+        padding: 2rem 9.5rem;
     }
 
     .header-logo-img .header-logo-img-1,
@@ -81,6 +84,10 @@
     .header-search {
         width: 393px;
         justify-content: space-between;
+    }
+
+    .header-btn button {
+        height: 51px;
     }
 
 
@@ -127,7 +134,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .hidden-card {
+    .product-card:nth-last-child(-n+2) {
         display: none;
     }
 }
@@ -138,7 +145,7 @@
     }
 
     .product-line-container {
-        max-width: 1440px;
+        max-width: 1136px;
         margin: auto;
     }
 
@@ -172,6 +179,12 @@
 /* ------------------ FOOTER ------------------ */
 /* -------------------------------------------- */
 
+@media screen and (max-width: 767px) {
+    .footer-links {
+        align-items: center;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .footer {
         padding: 2rem;
@@ -197,9 +210,11 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .footer-left {
         flex-direction: row;
+        gap: 7rem;
+        align-items: flex-start;
     }
 
     .footer-logo {
@@ -217,5 +232,97 @@
 
     .footer-contact {
         max-width: 50%;
+    }
+}
+
+
+/* -------------------------------------------- */
+/* ---------------- ADD-PRODUCT --------------- */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 1024px) {
+    .add-product-container {
+        max-width: 560px;
+        margin: auto;
+        padding: 2rem 0;
+    }
+}
+
+
+/* -------------------------------------------- */
+/* ------------------ LOG-IN ------------------ */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .header-login {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .log-in-container {
+        max-width: 424px;
+    }
+
+    .input-box-login {
+        margin: 1.5rem auto;
+    }
+}
+
+/* -------------------------------------------- */
+/* ------------------- ADMIN ------------------ */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .product-img {
+        width: 164px;
+        height: 174px;
+    }
+
+    .all-products-container {
+        max-width: 1136px;
+        margin: auto;
+    }
+}
+
+/* -------------------------------------------- */
+/* ---------------- PRODUCT-1 ----------------- */
+/* -------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .header-product-1 {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .products-container-2 {
+        display: flex;
+    }
+
+    .product-1_container {
+        padding: 2rem;
+
+    }
+
+    .more-products .product-line-container {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .product-1_container {
+        max-width: 1136px;
+        margin: auto;
+        padding: 2rem 0;
+    }
+
+    .more-products .product-line-container {
+        max-width: 1136px;
+        margin: auto;
+        padding: 2rem 0;
     }
 }

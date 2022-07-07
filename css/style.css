@@ -18,17 +18,13 @@
 
 body {
     background-color: var(--preto-05);
-    /* position: relative; */
-    /* width: 360px;
-    height: 2683px; */
     font-family: 'Raleway', sans-serif;
+    /* background-color: var(--lightgray); */
 }
 
 .body-container {
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .header {
@@ -68,9 +64,17 @@ body {
     width: 133px;
     height: 40px;
     border: 1px solid var(--azulbtn);
-    color: var(--azulbtn);
     font-weight: 600;
     background-color: var(--preto-white);
+}
+
+.header-btn button a {
+    color: var(--azulbtn);
+    font-weight: 600;
+    /* background-color: var(--preto-white); */
+    border: none;
+    text-decoration: none;
+    padding: 11px 47px;
 }
 
 .header-search button {
@@ -224,6 +228,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: center;
 }
 
 .footer-logo {
@@ -316,4 +321,262 @@ a {
 .rodapie p {
     text-align: center;
     font-weight: 500;
+}
+
+/* -------------------------------------------- */
+/* --------------- ADD-PRODUCT ---------------- */
+/* -------------------------------------------- */
+
+.add-products-header-btn button {
+    width: 160px;
+}
+
+.add-product-container {
+    /* max-width: 343px;
+    margin: 2rem auto; */
+    padding: 2rem 1rem;
+}
+
+.add-product-container .input-box {
+    margin-top: 1rem;
+}
+
+.add-product-btn {
+    /* max-width: 559px; */
+}
+
+.add-product-btn button {
+    width: 100%;
+    height: 51px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: var(--preto-white);
+    background-color: var(--azulbtn);
+    border: none;
+}
+
+
+/* -------------------------------------------- */
+/* ------------------ LOG-IN ------------------ */
+/* -------------------------------------------- */
+
+.log-in-container {
+    max-width: 290px;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.log-in-btn button {
+    padding: .75rem 2rem;
+    background-color: var(--azulbtn);
+    color: var(--preto-white);
+    border: none;
+}
+
+.input-box-login {
+    margin: 1rem;
+}
+
+/* -------------------------------------------- */
+/* ------------------- ADMIN ------------------ */
+/* -------------------------------------------- */
+
+.all-products-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.all-products {
+    padding: 2rem;
+}
+
+.all-products-top p {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--preto-100);
+}
+
+.all-products-btn button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--azulbtn);
+    color: var(--preto-white);
+    border: none;
+    padding: .75rem 1rem;
+}
+
+.product-img {
+    width: 140px;
+    height: 174px;
+}
+
+.product-card-2 .card-1 {
+    background: url('../img/starwars1.png') no-repeat center / cover;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.product-card-2 .card-2 {
+    background: url('../img/starwars2.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-3 {
+    background: url('../img/starwars3.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-4 {
+    background: url('../img/starwars4.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-5 {
+    background: url('../img/starwars5.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-6 {
+    background: url('../img/starwars6.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-7 {
+    background: url('../img/console1.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-8 {
+    background: url('../img/console2.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-9 {
+    background: url('../img/console3.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-10 {
+    background: url('../img/console4.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-11 {
+    background: url('../img/console5.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-12 {
+    background: url('../img/console6.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-13 {
+    background: url('../img/various1.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-14 {
+    background: url('../img/various2.png')no-repeat center / cover;
+}
+
+.product-card-2 .card-15 {
+    background: url('../img/various3.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-16 {
+    background: url('../img/various4.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-17 {
+    background: url('../img/various5.png') no-repeat center / cover;
+}
+
+.product-card-2 .card-18 {
+    background: url('../img/various6.png') no-repeat center / cover;
+}
+
+.icons {
+    position: relative;
+}
+
+.icon-btn-1 {
+    position: absolute;
+    right: 49px;
+    top: 11px;
+}
+
+.icon-btn-1 img {
+    width: 14px;
+    height: 18px;
+}
+
+.icon-btn-2 {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+
+.icons button {
+    background: inherit;
+    border: none;
+}
+
+/* .icons img {
+    width: 18px;
+    height: 18px;
+    background-color: inherit;
+} */
+
+.all-products .product-card-2 {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: .5rem;
+}
+
+.products-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.product-price {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* -------------------------------------------- */
+/* ---------------- PRODUCT-1 ----------------- */
+/* -------------------------------------------- */
+
+.product-1_container img {
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+.product-container__information {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--preto-100);
+}
+
+.product-container__title {
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.product-container__price {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.product-container__info {
+    font-size: .875;
+    font-weight: 400;
+}
+
+.more-products .product-line-container {
+    padding: 1rem;
+}
+
+.more-products .product-line-top {
+    margin-bottom: 1rem;
 }
