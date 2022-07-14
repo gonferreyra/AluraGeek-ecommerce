@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaquerys.css">
-    <title>AluraGeek e-commerce - Add product</title>
+    <title>AluraGeek e-commerce - Registro completado</title>
 </head>
 
 <body>
@@ -34,52 +34,13 @@
                 <!-- probar con hidden el input y cuando apretamos el anchor -->
             </div>
         </header>
-        <section class="add-product">
-            <form class="add-product-container" data-form>
-                <div class="product-container-title">
-                    <h2>Agregar nuevo producto</h2>
-                </div>
-                <div class="input-box">
-                    <div class="input-box-container">
-                        <label for="url">URL de la imagen</label>
-                        <input id="url-input" type="text" data-url>
-                    </div>
-                </div>
-                <div class="input-box-select">
-                    <div class="input-box-container">
-                        <select class="input-select" name="" id="categoria-input">
-                            <option>Selecciona</option>
-                            <option value="Starwars">Starwars</option>
-                            <option value="Console">Console</option>
-                            <option value="Various">Various</option>
-                        </select>
-                        <!-- <label for="categoria">Categoria</label>
-                        <input id="categoria-input" type="text" placeholder="Consolas" required data-categoria> -->
-                    </div>
-                </div>
-                <div class="input-box">
-                    <div class="input-box-container">
-                        <label for="nombre">Nombre del producto</label>
-                        <input id="nombre-input" type="text" placeholder="Producto XYZ" required data-nombre>
-                    </div>
-                </div>
-                <div class="input-box">
-                    <div class="input-box-container">
-                        <label for="precio">Precio del producto</label>
-                        <input id="precio-input" type="text" placeholder="$ 60,00" required data-precio>
-                    </div>
-                </div>
-                <div class="input-box">
-                    <div class="input-box-container">
-                        <textarea id="descripcion-input" name="" placeholder="Descripción del producto"
-                            data-descripcion></textarea>
-                    </div>
-                </div>
-                <div class="add-product-btn">
-                    <button>Agregar Producto</button>
-                </div>
-            </form>
+
+        <section class="success-message">
+            <h2>Product add succesfully!</h2>
+            <button><a href="./admin.html">See all products</a></button>
+
         </section>
+
         <footer class="footer">
             <div class="footer-content">
                 <!-- <div class="footer-container"> -->
@@ -136,9 +97,9 @@
         <div class="rodapie">
             <p>Desarrolador por Gonzalo - 2022</p>
         </div>
+
     </div>
 
-    <script src="./controllers/newproduct.controler.js" type="module"></script>t
 </body>
 
 </html>

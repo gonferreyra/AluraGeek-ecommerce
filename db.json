@@ -1,3 +1,100 @@
 {
-  "productos": [{}]
+  "products": [
+    {
+      "url": "./img/starwars1.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "1"
+    },
+    {
+      "url": "./img/starwars2.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "2"
+    },
+    {
+      "url": "./img/starwars3.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "3"
+    },
+    {
+      "url": "./img/starwars4.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "4"
+    },
+    {
+      "url": "./img/starwars5.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "5"
+    },
+    {
+      "url": "./img/starwars6.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "starwars",
+      "description": "",
+      "id": "6"
+    },
+    {
+      "url": "./img/console1.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "7"
+    },
+    {
+      "url": "./img/console2.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "8"
+    },
+    {
+      "url": "./img/console3.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "9"
+    },
+    {
+      "url": "./img/console4.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "10"
+    },
+    {
+      "url": "./img/console5.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "11"
+    },
+    {
+      "url": "./img/console6.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "console",
+      "description": "",
+      "id": "12"
+    }
+  ]
 }

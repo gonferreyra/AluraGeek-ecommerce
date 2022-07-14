@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "background-img": "./img/starwars1.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "1"
+    },
+    {
+      "background-img": "./img/starwars2.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "2"
+    },
+    {
+      "background-img": "./img/starwars3.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "3"
+    },
+    {
+      "background-img": "./img/starwars4.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "4"
+    },
+    {
+      "background-img": "./img/starwars5.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "5"
+    },
+    {
+      "background-img": "./img/starwars6.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "6"
+    },
+    {
+      "background-img": "./img/console1.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "7"
+    },
+    {
+      "background-img": "./img/console2.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "8"
+    },
+    {
+      "background-img": "./img/console3.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "9"
+    },
+    {
+      "background-img": "./img/console4.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "10"
+    },
+    {
+      "background-img": "./img/console5.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "11"
+    },
+    {
+      "background-img": "./img/console6.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "12"
+    },
+    {
+      "background-img": "./img/varius1.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "13"
+    },
+    {
+      "background-img": "./img/varius2.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "14"
+    },
+    {
+      "background-img": "./img/varius3.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "15"
+    },
+    {
+      "background-img": "./img/varius4.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "16"
+    },
+    {
+      "background-img": "./img/varius5.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "17"
+    },
+    {
+      "background-img": "./img/varius6.png",
+      "name": "Producto XYZ",
+      "price": "R$ 60.00",
+      "id": "18"
+    }
+  ]
+}
