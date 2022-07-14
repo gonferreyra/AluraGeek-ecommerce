@@ -95,6 +95,62 @@
       "category": "console",
       "description": "",
       "id": "12"
+    },
+    {
+      "url": "./img/various1.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "13"
+    },
+    {
+      "url": "./img/various2.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "14"
+    },
+    {
+      "url": "./img/various3.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "15"
+    },
+    {
+      "url": "./img/various4.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "16"
+    },
+    {
+      "url": "./img/various5.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "17"
+    },
+    {
+      "url": "./img/various6.png",
+      "name": "Producto XYZ",
+      "price": "60.00",
+      "category": "various",
+      "description": "",
+      "id": "18"
+    },
+    {
+      "url": "./img/console4.png",
+      "category": "console",
+      "name": "Consola ps4",
+      "price": "120",
+      "description": "",
+      "id": "6o-ss3X"
     }
   ]
 }

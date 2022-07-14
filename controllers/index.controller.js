@@ -2,8 +2,9 @@ import { clientServices } from "../service/client-service.js";
 
 const starwarsProducts = document.querySelector('.starwars-products');
 const consoleProducts = document.querySelector('.console-products');
+const variousProducts = document.querySelector('.various-products');
 
-const crearNuevaCard = (name, price, url, category) => {
+const crearNuevaCard = (name, price, url) => {
     const card = document.createElement('div');
     card.classList.add("product-card-2");
     card.innerHTML = `
@@ -26,15 +27,18 @@ const crearNuevaCard = (name, price, url, category) => {
 clientServices.productList()
     .then((data) => {
         data.forEach(products => {
-            // console.log(products.name, products.price, products.id)
-            const newCard = crearNuevaCard(products.name, products.price, products.url, products.category);
-            if (products.category === "starwars") {
+            const { name, price, url, category } = products
+            const newCard = crearNuevaCard(name, price, url);
+            if (category === "starwars") {
                 starwarsProducts.appendChild(newCard);
-            } else if (products.category === "console") {
+            } else if (category === "console") {
                 consoleProducts.appendChild(newCard);
+            } else if (category === "various") {
+                variousProducts.appendChild(newCard);
             }
 
         })
         console.log(data)
     })
-    .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));
+    .catch(error => console.log(error));
+    // .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));

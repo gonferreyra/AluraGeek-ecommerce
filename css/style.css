@@ -521,25 +521,24 @@ a {
     background: url('../img/18.png') no-repeat center / cover;
 }
 
-.icons {
-    position: relative;
-}
-
-.icon-btn-1 {
-    position: absolute;
-    right: 49px;
-    top: 11px;
-}
-
-.icon-btn-1 img {
+.icons button img {
     width: 14px;
     height: 18px;
 }
 
-.icon-btn-2 {
+.product-card-img {
+    position: relative;
+}
+
+.icons {
     position: absolute;
-    right: 11px;
     top: 11px;
+    right: 11px;
+}
+
+.icon-btn-1 {
+    position: absolute;
+    right: 28px;
 }
 
 .icons button {
@@ -547,11 +546,15 @@ a {
     border: none;
 }
 
-/* .icons img {
+.icon-btn-2 {
+    position: absolute;
+    right: 0;
+}
+
+.icons .icon-btn-2 img {
     width: 18px;
     height: 18px;
-    background-color: inherit;
-} */
+}
 
 .product-card-2 {
     display: flex;

@@ -134,11 +134,11 @@
     }
 }
 
-/* @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .product-card-2:nth-last-child(-n+2) {
         display: none;
     }
-} */
+}
 
 /* @media screen and (max-width: 930px) {
     .product-card-2:nth-last-child(-n+2) {
@@ -175,7 +175,7 @@
 }
 
 @media screen and (min-width:1200px) {
-    .product-card img {
+    .product-card-img img {
         width: 176px;
         height: 174px;
     }
@@ -254,7 +254,6 @@
         padding: 2rem 0;
     }
 }
-
 
 /* -------------------------------------------- */
 /* ------------------ LOG-IN ------------------ */

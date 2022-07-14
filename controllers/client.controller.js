@@ -4,11 +4,12 @@ import { clientServices } from "../service/client-service.js";
 
 const productsContainer = document.querySelector('.products'); // Este es el div donde hacemos el appendChild para el json. Agregar la misma class en index.html para hacer lo mismo.
 
-const crearNuevaCard = (name, price, id) => {
+const crearNuevaCard = (name, price, id, url) => {
     const card = document.createElement('div');
     card.classList.add("product-card-2");
     card.innerHTML = `
-        <div class="product-img card-${id}">
+        <div class="product-card-img">
+            <img src="${url}" alt="">
             <div class="icons">
                 <button id='${id}' class="icon-btn-1"><img src="./img/Trashcan.png" alt=""></button>
                 <button class="icon-btn-2"><img src="./img/edit.png" alt=""></button>
@@ -39,8 +40,8 @@ const crearNuevaCard = (name, price, id) => {
 clientServices.productList()
     .then((data) => {
         data.forEach(products => {
-            // console.log(products.name, products.price, products.id)
-            const newLine = crearNuevaCard(products.name, products.price, products.id);
+            const { name, price, id, url } = products
+            const newLine = crearNuevaCard(name, price, id, url);
             productsContainer.appendChild(newLine);
         })
         console.log(data)
