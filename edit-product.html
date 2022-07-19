@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquerys.css">
+    <title>AluraGeek e-commerce - Edit product</title>
+</head>
+
+<body>
+    <div class="body-container">
+        <header class="header">
+            <div class="header-logo">
+                <div class="header-logo-img">
+                    <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                    <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+                </div>
+                <div class="header-text">
+                    <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                    <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                    <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                    <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                </div>
+            </div>
+            <div class="header-btn add-products-header-btn">
+                <button><a href="./admin.html">Menu Administrador</a></button>
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="¿Qué deseas buscar?">
+                <button><img src="./img/loop.png" alt=""></button>
+                <!-- probar con hidden el input y cuando apretamos el anchor -->
+            </div>
+        </header>
+
+        <section class="edit-form">
+            <div class="edit-form-container">
+                <form class="edit-product-form" data-form>
+                    <div class="edit-title-container">
+                        <h2>Editar producto</h2>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-container">
+                            <label for="url">URL de la imagen</label>
+                            <input id="url-input" type="text" data-url>
+                        </div>
+                    </div>
+                    <div class="input-box-select">
+                        <div class="input-box-container">
+                            <select class="input-select" name="" id="categoria-input" data-categoria>
+                                <option>Selecciona</option>
+                                <option value="starwars">Starwars</option>
+                                <option value="console">Console</option>
+                                <option value="various">Various</option>
+                            </select>
+                            <!-- <label for="categoria">Categoria</label>
+                            <input id="categoria-input" type="text" placeholder="Consolas" required data-categoria> -->
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-container">
+                            <label for="nombre">Nombre del producto</label>
+                            <input id="nombre-input" type="text" placeholder="Producto XYZ" required data-nombre>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-container">
+                            <label for="precio">Precio del producto</label>
+                            <input id="precio-input" type="text" placeholder="$ 60,00" required data-precio>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-box-container">
+                            <textarea id="descripcion-input" name="" placeholder="Descripción del producto"
+                                data-descripcion></textarea>
+                        </div>
+                    </div>
+                    <div class="add-product-btn">
+                        <button>Guardar cambios</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <div class="rodapie">
+            <p>Desarrolador por Gonzalo - 2022</p>
+        </div>
+
+
+    </div>
+
+    <script src="./controllers/update.controller.js" type="module"></script>
+</body>
+
+</html>

@@ -12,7 +12,7 @@ const crearNuevaCard = (name, price, id, url) => {
             <img src="${url}" alt="">
             <div class="icons">
                 <button id='${id}' class="icon-btn-1"><img src="./img/Trashcan.png" alt=""></button>
-                <button class="icon-btn-2"><img src="./img/edit.png" alt=""></button>
+                <button id='edit_btn_${id}' class="icon-btn-2"><a href="./edit-product.html?id=${id}"><img src="./img/edit.png" alt=""></a></button>
             </div>
         </div>
         <div class="product-name">
@@ -28,8 +28,11 @@ const crearNuevaCard = (name, price, id, url) => {
     const btn = card.querySelector('button') //toma el primer boton para eliminar el producto
     btn.addEventListener('click', () => {
         const id = btn.id;
+        console.log(id)
         clientServices.eliminarProducto(id)
             .then(respuesta => {
+                window.location.reload();
+                // refresh web
                 console.log(respuesta)
             })
             .catch(error => console.log(error))
@@ -44,6 +47,6 @@ clientServices.productList()
             const newLine = crearNuevaCard(name, price, id, url);
             productsContainer.appendChild(newLine);
         })
-        console.log(data)
+        // console.log(data)
     })
-    .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));
+    .catch((error) => console.log(error));

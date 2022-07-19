@@ -146,11 +146,11 @@
     },
     {
       "url": "./img/console4.png",
-      "category": "console",
       "name": "Consola ps4",
-      "price": "120",
-      "description": "",
-      "id": "6o-ss3X"
+      "price": "130",
+      "category": "console",
+      "description": "Consola con 2 joysticks",
+      "id": "rRsej2_"
     }
   ]
 }

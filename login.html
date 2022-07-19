@@ -36,23 +36,24 @@
         </header>
         <section class="log-in">
             <div class="log-in-container">
-                <form action="" class="log-in-box-container">
-                    <div class="product-container-title">
+                <form class="log-in-box-container">
+                    <!-- <div class="product-container-title">
                         <h2>Iniciar sesión</h2>
-                    </div>
+                    </div> -->
                     <div class="input-box input-box-login">
                         <div class="input-box-container">
-                            <input type="email" placeholder="Escriba su correo electrónico">
+                            <input id="admin-login-email" type="email" placeholder="Escriba su correo electrónico"
+                                required>
                         </div>
                     </div>
                     <div class="input-box input-box-login">
                         <div class="input-box-container">
-                            <input type="text" placeholder="Escriba su contraseña">
+                            <input id="admin-login-password" type="text" placeholder="Escriba su contraseña" required>
                         </div>
                     </div>
                     <div class="log-in-btn">
                         <!-- <button>Entrar</button> -->
-                        <button><a href="./admin.html">Entrar</a></button>
+                        <button id="admin-login-btn">Entrar</button>
 
                     </div>
                 </form>
@@ -84,29 +85,27 @@
                     <div class="footer-contact-text">
                         <p>Hable con nosotros</p>
                     </div>
-                    <div class="footer-contact-fields">
+                    <form class="footer-contact-fields">
                         <div class="footer-input">
                             <div class="input-box">
                                 <div class="input-box-container">
                                     <label for="name">Nombre</label>
-                                    <input type="text" placeholder="Gonzalo Ferreyra">
+                                    <input id="input-name" type="text" placeholder="Gonzalo Ferreyra">
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-box-container">
-                                    <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                                    <textarea required id="input-msg" placeholder="Escribe tu mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-input">
-
+                        <div class="footer-contact-btn">
+                            <button id="footer-btn">Enviar mensaje</button>
                         </div>
-                    </div>
-                    <div class="footer-contact-btn">
-                        <button>Enviar mensaje</button>
-                    </div>
+                    </form>
                 </div>
-                <!-- </div> -->
+                <div class="footer-error">
+                </div>
 
             </div>
 

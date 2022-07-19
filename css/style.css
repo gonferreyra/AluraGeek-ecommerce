@@ -374,6 +374,8 @@ a {
 }
 
 
+
+
 /* -------------------------------------------- */
 /* ------------------ LOG-IN ------------------ */
 /* -------------------------------------------- */
@@ -616,4 +618,16 @@ a {
 
 .add-products-header-btn button a {
     padding: 17px 14px;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
 }

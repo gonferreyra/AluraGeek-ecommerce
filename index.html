@@ -109,29 +109,27 @@
                     <div class="footer-contact-text">
                         <p>Hable con nosotros</p>
                     </div>
-                    <div class="footer-contact-fields">
+                    <form class="footer-contact-fields">
                         <div class="footer-input">
                             <div class="input-box">
                                 <div class="input-box-container">
                                     <label for="name">Nombre</label>
-                                    <input type="text" placeholder="Gonzalo Ferreyra">
+                                    <input id="input-name" type="text" placeholder="Gonzalo Ferreyra">
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-box-container">
-                                    <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                                    <textarea required id="input-msg" placeholder="Escribe tu mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-input">
-
+                        <div class="footer-contact-btn">
+                            <button id="footer-btn">Enviar mensaje</button>
                         </div>
-                    </div>
-                    <div class="footer-contact-btn">
-                        <button>Enviar mensaje</button>
-                    </div>
+                    </form>
                 </div>
-                <!-- </div> -->
+                <div class="footer-error">
+                </div>
 
             </div>
 
@@ -142,6 +140,7 @@
 
     </div>
     <script src="./controllers/index.controller.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
     <!-- <script src="./controllers/client.controller.js" type="module"></script> -->
 </body>
 

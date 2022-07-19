@@ -332,3 +332,11 @@
         padding: 2rem 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .edit-form-container {
+        max-width: 560px;
+        margin: auto;
+        padding: 2rem 0;
+    }
+}
