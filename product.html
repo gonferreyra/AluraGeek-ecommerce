@@ -7,58 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaquerys.css">
-    <title>AluraGeek e-commerce - Product 1</title>
+    <title>AluraGeek e-commerce - Product</title>
 </head>
 
 <body>
     <div class="body-container">
-        <header class="header header-product-1">
-            <div class="header-logo">
-                <div class="header-logo-img">
-                    <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
-                    <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
-                </div>
-                <div class="header-text">
-                    <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
-                    <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
-                    <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
-                    <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
-                </div>
-            </div>
-            <div class="header-search">
-                <input type="text" placeholder="¿Qué deseas buscar?">
-                <button><img src="./img/loop.png" alt=""></button>
-                <!-- probar con hidden el input y cuando apretamos el anchor -->
-            </div>
-        </header>
-        <section class="product-1">
-            <div class="product-1_container">
-                <div class="products-container-2">
-                    <img src="./img/unsplash_6FDXGY9J6y4.png" alt="">
-                    <div class="product-container__information">
-                        <div class="product-container__title">
-                            <p>Producto XYZ</p>
-                        </div>
-                        <div class="product-container__price">
-                            <p>$ 60,00</p>
-                        </div>
-                        <div class="product-container__info">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad at, aspernatur
-                                accusantium
-                                laudantium vero, quisquam aliquam blanditiis minima cumque recusandae quis aut, corrupti
-                                veritatis praesentium? Ab dolor suscipit saepe.</p>
-                        </div>
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <div class="header-logo-img">
+                        <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                        <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+                    </div>
+                    <div class="header-text">
+                        <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                        <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                        <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                        <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
                     </div>
                 </div>
+                <div class="header-btn add-products-header-btn">
+                    <button><a href="./index.html">Pagina Principal</a></button>
+                </div>
+                <div class="header-search">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <button><img src="./img/loop.png" alt=""></button>
+                </div>
+            </div>
+        </header>
+
+        <section class="product-1">
+            <div class="product-1_container">
             </div>
         </section>
         <section class="more-products">
-            <div class="product-line-container">
+            <div class="product-line-container-2">
                 <div class="product-line-top">
                     <p>Productos similares</p>
                 </div>
                 <div class="products">
-                    <div class="product-card">
+
+                    <!-- <div class="product-card">
                         <div class="product-card-img">
                             <img src="./img/starwars1.png" alt="">
                         </div>
@@ -70,7 +59,6 @@
                         </div>
                         <div class="product-card-btn">
                             <a href="product-1.html">Ver producto</a>
-                            <!-- <button>Ver producto</button> -->
                         </div>
                     </div>
                     <div class="product-card">
@@ -142,7 +130,7 @@
                         <div class="product-card-btn">
                             <a href="">Ver producto</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -200,6 +188,7 @@
             <p>Desarrolador por Gonzalo - 2022</p>
         </div>
     </div>
+    <script src="./controllers/showproduct.controller.js" type="module"></script>
 </body>
 
 </html>

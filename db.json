@@ -5,7 +5,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "1"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "2"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "3"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "4"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "5"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "starwars",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "6"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "7"
     },
     {
@@ -61,7 +61,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "8"
     },
     {
@@ -69,7 +69,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "9"
     },
     {
@@ -77,7 +77,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "10"
     },
     {
@@ -85,7 +85,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "11"
     },
     {
@@ -93,7 +93,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "console",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "12"
     },
     {
@@ -101,7 +101,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "13"
     },
     {
@@ -109,7 +109,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "14"
     },
     {
@@ -117,7 +117,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "15"
     },
     {
@@ -125,7 +125,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "16"
     },
     {
@@ -133,7 +133,7 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "17"
     },
     {
@@ -141,16 +141,8 @@
       "name": "Producto XYZ",
       "price": "60.00",
       "category": "various",
-      "description": "",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
       "id": "18"
-    },
-    {
-      "url": "./img/console4.png",
-      "name": "Consola ps4",
-      "price": "130",
-      "category": "console",
-      "description": "Consola con 2 joysticks",
-      "id": "rRsej2_"
     }
   ]
 }

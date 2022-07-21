@@ -1,14 +1,13 @@
 import * as v from './variables.js'
-
+import { errorMessage } from './error.js';
 
 
 export const validateName = (e) => {
-    e.preventDefault();
-    if (v.inputName.value === "") {
-        console.log('El campo nombre no debe quedar vacio. Por favor completar con sus datos');
+    // e.preventDefault();
+    if (v.inputName.value === "" || v.inputMsg.value === "") {
+        errorMessage(v.footerError, "Los campos de nombre y mensaje no debe quedar vacio. Por favor ingrese sus datos");
     }
-    // Falta validar que envie el mensaje (ver el curso de validacion)
-}
+};
 
 const adminEmail = "admin@alurageek.com";
 const adminPass = 123456;
@@ -18,4 +17,4 @@ export const validateLogin = (e) => {
     if (v.adminLoginEmail.value != adminEmail) {
         console.log("error")
     }
-}
+};

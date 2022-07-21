@@ -4,7 +4,7 @@ const starwarsProducts = document.querySelector('.starwars-products');
 const consoleProducts = document.querySelector('.console-products');
 const variousProducts = document.querySelector('.various-products');
 
-const crearNuevaCard = (name, price, url) => {
+const crearNuevaCard = (name, price, url, id) => {
     const card = document.createElement('div');
     card.classList.add("product-card-2");
     card.innerHTML = `
@@ -18,7 +18,7 @@ const crearNuevaCard = (name, price, url) => {
                 <p>$ ${price}</p>
             </div>
             <div class="product-card-btn">
-                <a href="product-1.html">Ver producto</a>
+                <a id="show-product" href="product.html?id=${id}">Ver producto</a>
             </div>
     `
     return card;
@@ -27,8 +27,8 @@ const crearNuevaCard = (name, price, url) => {
 clientServices.productList()
     .then((data) => {
         data.forEach(products => {
-            const { name, price, url, category } = products
-            const newCard = crearNuevaCard(name, price, url);
+            const { name, price, url, category, id } = products
+            const newCard = crearNuevaCard(name, price, url, id);
             if (category === "starwars") {
                 starwarsProducts.appendChild(newCard);
             } else if (category === "console") {
@@ -41,4 +41,4 @@ clientServices.productList()
         console.log(data)
     })
     .catch(error => console.log(error));
-    // .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));
+// .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));

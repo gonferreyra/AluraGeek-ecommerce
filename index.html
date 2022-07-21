@@ -12,28 +12,30 @@
 
 <body>
     <div class="body-container">
-        <header class="header">
-            <div class="header-logo">
-                <div class="header-logo-img">
-                    <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
-                    <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <div class="header-logo-img">
+                        <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                        <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+                    </div>
+                    <div class="header-text">
+                        <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                        <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                        <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                        <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                    </div>
                 </div>
-                <div class="header-text">
-                    <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
-                    <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
-                    <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
-                    <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                <div class="header-btn">
+                    <button><a href="login.html">Login</a></button>
                 </div>
-            </div>
-            <div class="header-btn">
-                <button><a href="login.html">Login</a></button>
-            </div>
-            <div class="header-search">
-                <input type="text" placeholder="¿Qué deseas buscar?">
-                <button><img src="./img/loop.png" alt=""></button>
-                <!-- probar con hidden el input y cuando apretamos el anchor -->
+                <div class="header-search">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <button><img src="./img/loop.png" alt=""></button>
+                </div>
             </div>
         </header>
+
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-text">
@@ -114,22 +116,25 @@
                             <div class="input-box">
                                 <div class="input-box-container">
                                     <label for="name">Nombre</label>
-                                    <input id="input-name" type="text" placeholder="Gonzalo Ferreyra">
+                                    <input id="input-name" required type="text" maxlength="40" data-tipo="nombre">
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-box-container">
-                                    <textarea required id="input-msg" placeholder="Escribe tu mensaje"></textarea>
+                                    <textarea id="input-msg" required placeholder="Escribe tu mensaje"
+                                        data-tipo="textarea" maxlength="120"></textarea>
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="footer-contact-btn">
                             <button id="footer-btn">Enviar mensaje</button>
                         </div>
+                        <div class="footer-error"></div>
                     </form>
                 </div>
-                <div class="footer-error">
-                </div>
+
 
             </div>
 
@@ -141,7 +146,7 @@
     </div>
     <script src="./controllers/index.controller.js" type="module"></script>
     <script src="./js/app.js" type="module"></script>
-    <!-- <script src="./controllers/client.controller.js" type="module"></script> -->
+    <!-- <script src="./js/validaciones.js" type="module"></script> -->
 </body>
 
 </html>

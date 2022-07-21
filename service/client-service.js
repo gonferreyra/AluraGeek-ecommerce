@@ -53,6 +53,11 @@ const actualizarProducto = async (url, name, price, category, description, id) =
     }
 };
 
+const mostrarProducto = (id) => {
+    fetch(`http://localhost:3000/products/${id}`)
+        .then(respuesta => respuesta.json())
+}
+
 export const clientServices = {
     productList,
     agregarProducto,
