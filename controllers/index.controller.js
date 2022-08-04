@@ -1,10 +1,16 @@
 import { clientServices } from "../service/client-service.js";
+import * as v from '../js/variables.js';
+
+
+// v.seeAllBtn.addEventListener('click', (e) => {
+//     e.preventDefault()
+// });
 
 const starwarsProducts = document.querySelector('.starwars-products');
 const consoleProducts = document.querySelector('.console-products');
 const variousProducts = document.querySelector('.various-products');
 
-const crearNuevaCard = (name, price, url, id) => {
+export const crearNuevaCard = (name, price, url, id) => {
     const card = document.createElement('div');
     card.classList.add("product-card-2");
     card.innerHTML = `
@@ -36,9 +42,10 @@ clientServices.productList()
             } else if (category === "various") {
                 variousProducts.appendChild(newCard);
             }
-
         })
         console.log(data)
     })
     .catch(error => console.log(error));
 // .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));
+
+

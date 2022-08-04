@@ -52,9 +52,8 @@
 
             </div>
         </section>
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="footer-content">
-                <!-- <div class="footer-container"> -->
                 <div class="footer-left">
                     <div class="footer-logo">
                         <div class="logo-img">
@@ -78,33 +77,31 @@
                     <div class="footer-contact-text">
                         <p>Hable con nosotros</p>
                     </div>
-                    <div class="footer-contact-fields">
+                    <form class="footer-contact-fields">
                         <div class="footer-input">
                             <div class="input-box">
                                 <div class="input-box-container">
                                     <label for="name">Nombre</label>
-                                    <input type="text" placeholder="Gonzalo Ferreyra">
+                                    <input id="input-name" required type="text" maxlength="40" data-tipo="nombre">
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-box-container">
-                                    <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                                    <textarea id="input-msg" required placeholder="Escribe tu mensaje"
+                                        data-tipo="textarea" maxlength="120"></textarea>
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-input">
-
+                        <div class="footer-contact-btn">
+                            <button id="footer-btn">Enviar mensaje</button>
                         </div>
-                    </div>
-                    <div class="footer-contact-btn">
-                        <button>Enviar mensaje</button>
-                    </div>
+                        <div class="footer-error"></div>
+                    </form>
                 </div>
-                <!-- </div> -->
-
             </div>
-
-        </footer>
+        </footer> -->
         <div class="rodapie">
             <p>Desarrolador por Gonzalo - 2022</p>
         </div>

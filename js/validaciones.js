@@ -3,7 +3,7 @@ export function valida(input) {
     if (validadores[tipoDeInput]) {
         validadores[tipoDeInput](input)
     }
-    console.log(input.parentElement.parentElement)
+    // console.log(input.parentElement.parentElement)
     if (input.validity.valid) {
         input.parentElement.parentElement.classList.remove("input-container--invalid");
         input.parentElement.querySelector('.input-msg-error').innerHTML = "";

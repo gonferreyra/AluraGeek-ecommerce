@@ -16,14 +16,17 @@
             <div class="header">
                 <div class="header-logo">
                     <div class="header-logo-img">
-                        <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
-                        <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+                        <a href="index.html">
+                            <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                            <img class="header-logo-img-2" src="./img/Vector2.png" alt=""></a>
                     </div>
                     <div class="header-text">
-                        <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
-                        <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
-                        <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
-                        <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                        <a href="index.html">
+                            <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                            <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                            <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                            <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="header-btn add-products-header-btn">
@@ -54,8 +57,8 @@
                     </div>
                     <div class="log-in-btn">
                         <button id="admin-login-btn">Entrar</button>
-
                     </div>
+                    <div class="form-error"></div>
                 </form>
             </div>
         </section>
@@ -90,22 +93,25 @@
                             <div class="input-box">
                                 <div class="input-box-container">
                                     <label for="name">Nombre</label>
-                                    <input id="input-name" type="text" placeholder="Gonzalo Ferreyra">
+                                    <input id="input-name" required type="text" maxlength="40" data-tipo="nombre">
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-box-container">
-                                    <textarea required id="input-msg" placeholder="Escribe tu mensaje"></textarea>
+                                    <textarea id="input-msg" required placeholder="Escribe tu mensaje"
+                                        data-tipo="textarea" maxlength="120"></textarea>
+                                    <span class="input-msg-error"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="footer-contact-btn">
                             <button id="footer-btn">Enviar mensaje</button>
                         </div>
+                        <div class="footer-error"></div>
                     </form>
                 </div>
-                <div class="footer-error">
-                </div>
+
 
             </div>
 

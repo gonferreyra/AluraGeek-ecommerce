@@ -1,8 +1,8 @@
-
+import * as v from './variables.js';
 // Le enviamos como parametro, ademas del error, el div donde insertarlo
 
 export function errorMessage(insertDiv, error) {
-    // cleanHTML();
+    cleanError();
     const errorMessage = document.createElement('p');
     errorMessage.textContent = error;
     errorMessage.classList.add('error');
@@ -16,3 +16,9 @@ export function errorMessage(insertDiv, error) {
         errorMessage.remove();
     }, 3000);
 };
+
+function cleanError() {
+    while (v.searchErrorDiv.firstChild) {
+        v.searchErrorDiv.removeChild(v.searchErrorDiv.firstChild)
+    }
+}

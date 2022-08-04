@@ -50,6 +50,10 @@ header {
     display: flex;
 }
 
+.header a {
+    text-decoration: none;
+}
+
 .header-logo-img .header-logo-img-2 {
     display: none;
 }
@@ -330,7 +334,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -457,11 +461,8 @@ a {
     height: 174px;
 }
 
-.product-card-2 .card-1 {
+/* .product-card-2 .card-1 {
     background: url('../img/1.png') no-repeat center / cover;
-    /* background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 .product-card-2 .card-2 {
@@ -530,7 +531,7 @@ a {
 
 .product-card-2 .card-18 {
     background: url('../img/18.png') no-repeat center / cover;
-}
+} */
 
 .icons button img {
     width: 14px;
@@ -648,10 +649,28 @@ a {
     border-radius: 10px;
 }
 
+.error-login {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* max-width: 400px; */
+    margin: 1rem auto;
+    color: white;
+    border-radius: 10px;
+}
+
 .input-msg-error {
     font-size: 12px;
     color: var(--warning-color);
     margin-top: .5rem;
+}
+
+.input-msg-error .footer-span-error {
+    font-size: 12px;
+    color: var(--warning-color);
+    margin-top: 1.5rem;
 }
 
 .login_error {
@@ -665,9 +684,9 @@ a {
     ;
 }
 
-.input-container--invalid textarea {
+/* .input-container--invalid textarea {
     margin-bottom: 1.5rem;
-}
+} */
 
 .input-container--invalid label {
     color: var(--warning-color);
@@ -679,4 +698,21 @@ a {
 
 .input-message-error {
     display: none;
+}
+
+/* SEARCH */
+
+.search-result {
+    background: var(--lightgray);
+}
+
+#search-products-result {
+    justify-content: center;
+}
+
+.product-card-2-search {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: .5rem;
 }

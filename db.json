@@ -2,7 +2,7 @@
   "products": [
     {
       "url": "./img/starwars1.png",
-      "name": "Producto XYZ",
+      "name": "Starwars Cup",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -10,7 +10,7 @@
     },
     {
       "url": "./img/starwars2.png",
-      "name": "Producto XYZ",
+      "name": "Black Helmet",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -18,7 +18,7 @@
     },
     {
       "url": "./img/starwars3.png",
-      "name": "Producto XYZ",
+      "name": "Yoda Big",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -26,7 +26,7 @@
     },
     {
       "url": "./img/starwars4.png",
-      "name": "Producto XYZ",
+      "name": "Stormtropper",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -34,7 +34,7 @@
     },
     {
       "url": "./img/starwars5.png",
-      "name": "Producto XYZ",
+      "name": "Yoda 2",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -42,7 +42,7 @@
     },
     {
       "url": "./img/starwars6.png",
-      "name": "Producto XYZ",
+      "name": "Doll",
       "price": "60.00",
       "category": "starwars",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -50,7 +50,7 @@
     },
     {
       "url": "./img/console1.png",
-      "name": "Producto XYZ",
+      "name": "Xbox Joystick",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -58,7 +58,7 @@
     },
     {
       "url": "./img/console2.png",
-      "name": "Producto XYZ",
+      "name": "Ps5",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -66,7 +66,7 @@
     },
     {
       "url": "./img/console3.png",
-      "name": "Producto XYZ",
+      "name": "Nintendo",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -74,7 +74,7 @@
     },
     {
       "url": "./img/console4.png",
-      "name": "Producto XYZ",
+      "name": "Nintendo Switch",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -82,7 +82,7 @@
     },
     {
       "url": "./img/console5.png",
-      "name": "Producto XYZ",
+      "name": "Xbox Console",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -90,7 +90,7 @@
     },
     {
       "url": "./img/console6.png",
-      "name": "Producto XYZ",
+      "name": "Gameboy",
       "price": "60.00",
       "category": "console",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -98,7 +98,7 @@
     },
     {
       "url": "./img/various1.png",
-      "name": "Producto XYZ",
+      "name": "Atari tshirt",
       "price": "60.00",
       "category": "various",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -106,7 +106,7 @@
     },
     {
       "url": "./img/various2.png",
-      "name": "Producto XYZ",
+      "name": "Constroler tshirt",
       "price": "60.00",
       "category": "various",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -114,7 +114,7 @@
     },
     {
       "url": "./img/various3.png",
-      "name": "Producto XYZ",
+      "name": "Sega Mini",
       "price": "60.00",
       "category": "various",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -130,7 +130,7 @@
     },
     {
       "url": "./img/various5.png",
-      "name": "Producto XYZ",
+      "name": "Virtual Reality console",
       "price": "60.00",
       "category": "various",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",
@@ -138,7 +138,7 @@
     },
     {
       "url": "./img/various6.png",
-      "name": "Producto XYZ",
+      "name": "Picachu Doll",
       "price": "60.00",
       "category": "various",
       "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsums",

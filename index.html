@@ -16,26 +16,28 @@
             <div class="header">
                 <div class="header-logo">
                     <div class="header-logo-img">
-                        <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
-                        <img class="header-logo-img-2" src="./img/Vector2.png" alt="">
+                        <a href="index.html">
+                            <img class="header-logo-img-1" src="./img/Vector-logo.png" alt="">
+                            <img class="header-logo-img-2" src="./img/Vector2.png" alt=""></a>
                     </div>
                     <div class="header-text">
-                        <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
-                        <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
-                        <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
-                        <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                        <a href="index.html">
+                            <img class="header-text-img-1" src="./img/AluraGeek.png" alt="">
+                            <img class="header-text-img-2" src="./img/AluraGeek-geek.png" alt="">
+                            <img class="header-text-img-3" src="./img/AluraGeek2.png" alt="">
+                            <img class="header-text-img-4" src="./img/AluraGeek-geek2.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="header-btn">
                     <button><a href="login.html">Login</a></button>
                 </div>
-                <div class="header-search">
+                <form action="" class="header-search">
                     <input type="text" placeholder="¿Qué deseas buscar?">
-                    <button><img src="./img/loop.png" alt=""></button>
-                </div>
+                    <button type="button"><img src="./img/loop.png" alt=""></button>
+                </form>
             </div>
         </header>
-
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-text">
@@ -44,7 +46,17 @@
                     <button><a href="#console">Ver Consolas</a></button>
                 </div>
             </div>
+        </section>
+        <section class="search-result all-products">
+            <div class="allproducts-container">
+                <div class="search-error">
+                </div>
+                <div class="search-result-container all-products-container">
+                    <div id="search-products-result" class="products">
 
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="starwars product-line">
             <div class="product-line-container">
@@ -55,7 +67,6 @@
                     </div>
                 </div>
                 <div class="products starwars-products">
-
                 </div>
             </div>
         </section>
@@ -68,7 +79,6 @@
                     </div>
                 </div>
                 <div class="products console-products">
-
                 </div>
             </div>
         </section>
@@ -134,19 +144,14 @@
                         <div class="footer-error"></div>
                     </form>
                 </div>
-
-
             </div>
-
         </footer>
         <div class="rodapie">
             <p>Desarrolador por Gonzalo - 2022</p>
         </div>
-
     </div>
+    <!-- <script src="./js/app.js" type="module"></script> -->
     <script src="./controllers/index.controller.js" type="module"></script>
-    <script src="./js/app.js" type="module"></script>
-    <!-- <script src="./js/validaciones.js" type="module"></script> -->
 </body>
 
 </html>
