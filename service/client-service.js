@@ -1,11 +1,11 @@
 // URL's
-const url = "http://localhost:3000/products";
-const fakeAPI = "https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products"
+// const url = "http://localhost:3000/products";
+const mockApi = "https://62f58020535c0c50e770b15a.mockapi.io/database";
 
 const productList = async () => {
     try {
         // const respuesta = await fetch(url);
-        const respuesta = await fetch(fakeAPI);
+        const respuesta = await fetch(mockApi);
         return respuesta.json();
     } catch (error) {
         console.log(error);
@@ -15,7 +15,7 @@ const productList = async () => {
 
 const agregarProducto = (url, category, name, price, description) => {
     // return fetch("http://localhost:3000/products", {
-    return fetch("https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products", {
+    return fetch("https://62f58020535c0c50e770b15a.mockapi.io/database/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -26,14 +26,14 @@ const agregarProducto = (url, category, name, price, description) => {
 
 const eliminarProducto = (id) => {
     // return fetch(`http://localhost:3000/products/${id}`, {
-    return fetch(`https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products/${id}`, {
+    return fetch(`https://62f58020535c0c50e770b15a.mockapi.io/database/${id}`, {
         method: "DELETE"
     })
 }
 
 const detalleProducto = async (id) => {
     try {
-        const respuesta = await fetch(`https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products/${id}`)
+        const respuesta = await fetch(`https://62f58020535c0c50e770b15a.mockapi.io/database/${id}`)
         // const respuesta = await fetch(`http://localhost:3000/products/${id}`)
         return respuesta.json();
     } catch (error) {
@@ -45,7 +45,7 @@ const detalleProducto = async (id) => {
 const actualizarProducto = async (url, name, price, category, description, id) => {
     try {
         // const respuesta = await fetch(`http://localhost:3000/products/${id}`, {
-        const respuesta = await fetch(`https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products/${id}`, {
+        const respuesta = await fetch(`https://62f58020535c0c50e770b15a.mockapi.io/database/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -61,7 +61,7 @@ const actualizarProducto = async (url, name, price, category, description, id) =
 
 const mostrarProducto = (id) => {
     // fetch(`http://localhost:3000/products/${id}`)
-    fetch(`https://my-json-server.typicode.com/gonferreyra/Json-fakeAPI/products/${id}`)
+    fetch(`https://62f58020535c0c50e770b15a.mockapi.io/database/${id}`)
         .then(respuesta => respuesta.json())
 }
 
