@@ -43,9 +43,6 @@ clientServices.productList()
                 variousProducts.appendChild(newCard);
             }
         })
-        console.log(data)
+        // console.log(data)
     })
     .catch(error => console.log(error));
-// .catch((error) => alert('Ocurrio un error, debe iniciar el json server'));
-
-

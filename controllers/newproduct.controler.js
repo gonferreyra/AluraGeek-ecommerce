@@ -15,8 +15,7 @@ form.addEventListener('submit', (e) => {
     clientServices
         .agregarProducto(url, category, name, price, description)
         .then((respuesta) => {
-            window.location.href = "./registro-completado.html" // Agregar html para mostrar mensaje
-            // alert('Producto agregado satisfactoriamente')
+            alert('Producto agregado satisfactoriamente')
         })
         .catch((error) => console.log(error))
 

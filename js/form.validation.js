@@ -16,11 +16,11 @@ export const loginValidation = () => {
     let email = v.adminLoginEmail.value;
     let password = v.adminLoginPass.value;
     if (email == adminEmail && password == adminPass) {
-        console.log('datos correctos')
+        // console.log('datos correctos')
         document.location.href = 'admin.html'
     } else {
-        console.log("error");
-        errorMessageLogin(v.loginErrorDiv, "error");
+        // console.log("error");
+        errorMessageLogin(v.loginErrorDiv, "Alguno de los datos ingresados es incorrecto. Intente nuevamente");
     }
 }
 
@@ -37,7 +37,7 @@ export function errorMessageLogin(insertDiv, error) {
     // Elimina la alerta despues de 3 segundos
     setTimeout(() => {
         errorMessage.remove();
-    }, 83000);
+    }, 3000);
 };
 
 function cleanErrorLogin() {

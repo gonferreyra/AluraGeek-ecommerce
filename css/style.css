@@ -87,7 +87,7 @@ header {
     /* background-color: var(--preto-white); */
     border: none;
     text-decoration: none;
-    padding: 11px 47px;
+    padding: 17px 47px;
 }
 
 .header-search button {
@@ -341,11 +341,29 @@ a {
 .rodapie {
     background-color: var(--preto-white);
     padding: 2rem;
+    /* position: relative; */
 }
 
 .rodapie p {
-    text-align: center;
+    /* text-align: center; */
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.rodapie svg {
+    width: 20px;
+    /* position: absolute; */
+}
+
+.rodapie a {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    text-decoration: none;
+    color: var(--azulbtn);
 }
 
 /* -------------------------------------------- */
@@ -684,17 +702,9 @@ a {
     ;
 }
 
-/* .input-container--invalid textarea {
-    margin-bottom: 1.5rem;
-} */
-
 .input-container--invalid label {
     color: var(--warning-color);
 }
-
-/* .input-container--invalid input::placeholder {
-    color: var(--warning-color);
-} */
 
 .input-message-error {
     display: none;
